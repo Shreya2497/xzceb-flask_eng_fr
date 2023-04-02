@@ -1,6 +1,6 @@
 import unittest
-
-from machinetranslation import __init__
+import sys
+from machinetranslation.translator import english_to_french, french_to_english
 
 class TestE2F(unittest.TestCase):
     def test1(self):
